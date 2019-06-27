@@ -1,5 +1,5 @@
 {
-  "name": "brussens/yii2-recaptcha",
+  "name": "sokolov09/yii2-recaptcha",
   "description": "Google ReCaptcha v2.0 Yii 2.x.x extension",
   "license": "MIT",
   "type": "yii2-extension",
@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "brussens\\yii2\\extensions\\recaptcha\\": "src/"
+      "sokolov09\\yii2\\extensions\\recaptcha\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "brussens\\yii2\\extensions\\recaptcha\\test\\": "test/"
+      "sokolov09\\yii2\\extensions\\recaptcha\\test\\": "test/"
     }
   }
 }

@@ -100,7 +100,7 @@ class Widget extends InputWidget
 
         $options = ArrayHelper::merge(['sitekey' => $this->siteKey], $this->clientOptions);
         $view->registerJs(
-            'grecaptcha.render("' . $this->options['id'] . '-recaptcha-container", ' . Json::encode($options) . ');',
+            'try{grecaptcha.render("' . $this->options['id'] . '-recaptcha-container", ' . Json::encode($options) . ');}catch(e){console.log(e)};',
             $view::POS_LOAD
         );
     }
